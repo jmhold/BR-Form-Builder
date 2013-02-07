@@ -1,0 +1,1227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-07 08:27-0600\n"
+"PO-Revision-Date: 2012-11-07 08:27-0600\n"
+"Last-Translator: Matthew Muro <fuzzboxer@gmail.com>\n"
+"Language-Team:  <me@matthewmuro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro\n"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/email-preview.php:28
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:29
+msgid "You do not have sufficient permissions to view the preview for this site."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:198
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:150
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. Verification not required."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:313
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:265
+msgid "Address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:317
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:269
+msgid "Address Line 2"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:321
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:273
+msgid "City"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:325
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:277
+msgid "State / Province / Region"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:329
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:281
+msgid "Postal / Zip Code"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:341
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:293
+msgid "Country"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:556
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:508
+msgid "Verification"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:560
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:512
+msgid "Please enter any two digits with"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:560
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:512
+msgid "no"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:560
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:512
+msgid "spaces (Example: 12)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:571
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:523
+msgid "This box is for spam protection"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/form-preview.php:571
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/form-output.php:523
+msgid "please leave it blank"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:316
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:252
+msgid "Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:514
+msgid "Enable Conditional Rule for this field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:520
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:565
+msgid "Show"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:521
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:566
+msgid "Hide"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:524
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:569
+msgid "all"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:525
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:570
+msgid "any"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:540
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:581
+msgid "is"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:541
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:582
+msgid "is not"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:558
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:595
+msgid "Add"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:558
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:595
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2505
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2568
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:178
+msgid "Delete"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:757
+msgid "Entries per page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:796
+msgid "Quick Switch"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:797
+msgid "Form Items"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:798
+msgid "Display Forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:835
+msgid "Click or Drag"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:835
+msgid "to Add a Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:837
+msgid "Standard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:838
+msgid "Advanced"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:896
+msgid "Add forms to your Posts or Pages by locating the icon shown below in the area above your post/page editor."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:1569
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:1579
+msgid "Image could not be processed.  Please go back and try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:1569
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:1579
+msgid "Image Processing Error"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2494
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2558
+msgid "Forwards to PayPal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2501
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2564
+msgid "Edit Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2508
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2571
+msgid "Preview the Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2508
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2571
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:87
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:279
+msgid "Preview"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2644
+msgid "Edit Field Item"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2663
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3015
+msgid "CSS Classes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2674
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2694
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2742
+msgid "Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2683
+msgid "Description (HTML tags allowed)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2703
+msgid "Dynamic Variable"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2715
+msgid "Select a Variable or Custom to create your own"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2716
+msgid "Form ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2717
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:52
+msgid "Form Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2718
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:58
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:94
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:251
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:306
+msgid "IP Address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2719
+msgid "Unique ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2720
+msgid "Post/Page ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2721
+msgid "Post/Page Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2722
+msgid "Custom"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2729
+msgid "Static Variable"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2752
+msgid "Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2765
+msgid "Options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2813
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2830
+msgid "Minimum Value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2815
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2832
+msgid "Maximum Value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2858
+msgid "Accepted Mime Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2892
+msgid "12 Hour Format"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2893
+msgid "24 Hour Format"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2895
+msgid "IPv4"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2896
+msgid "IPv6"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2898
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2905
+msgid "Number"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2899
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2906
+msgid "Digits"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2901
+msgid "None"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2902
+msgid "Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2903
+msgid "URL"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2904
+msgid "Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2907
+msgid "Phone"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2908
+msgid "Credit Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2917
+msgid "Required"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2921
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:157
+msgid "No"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2922
+msgid "Yes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2931
+msgid "Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2935
+msgid "Small"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2936
+msgid "Medium"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2937
+msgid "Large"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2946
+msgid "Options Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2950
+msgid "One Column"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2951
+msgid "Two Columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2952
+msgid "Three Columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2953
+msgid "Auto Width"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2962
+msgid "Field Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2967
+msgid "Default"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2969
+msgid "Left Half"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2970
+msgid "Right Half"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2973
+msgid "Left Third"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2974
+msgid "Middle Third"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2975
+msgid "Right Third"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2978
+msgid "Left Two Thirds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2979
+msgid "Right Two Thirds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2989
+msgid "Default Value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:2999
+msgid "Default Country"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3026
+msgid "Remove"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3136
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3270
+msgid "Add New Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3147
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3271
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3313
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:73
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:64
+msgid "Entries"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3158
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3272
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3317
+msgid "Email Design"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3169
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3273
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3321
+msgid "Analytics"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3180
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3274
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3325
+msgid "Import"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3191
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3275
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3329
+msgid "Export"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3208
+msgid "The form has been successfully created."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3211
+#, php-format
+msgid "The %s form has been updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3214
+msgid "The form has been successfully deleted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3217
+msgid "The form has been successfully duplicated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3223
+msgid "You have successfully migrated to Visual Form Builder Pro!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3226
+#, php-format
+msgid "Email design has been updated. <a href=\"%s\" target=\"_blank\">View the Preview</a> to see how it looks."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3229
+msgid "Entry has been successfully updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3242
+#, php-format
+msgid "A version of Visual Form Builder has been detected. To copy your forms and data to Visual Form Builder Pro, <a href=\"%1$s\">click here</a>.<br><br><strong>Note</strong>: It is recommended that you perform this action <em>before</em> you begin adding forms. Migrating <em>after</em> you have added forms to Visual Form Builder Pro will delete those forms."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3243
+#, php-format
+msgid "<a style=\"float:right;\" href=\"%1$s\">Dismiss</a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3251
+msgid "The free version of Visual Form Builder is still active. In order for Visual Form Builder Pro to function and render correctly, you must deactivate the free version."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3266
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3268
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3300
+msgid "Visual Form Builder Pro"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3268
+msgid "All Forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3270
+msgid "Add New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3301
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3309
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:47
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:52
+msgid "Forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3382
+msgid "New Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3388
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3389
+msgid "Custom Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3389
+msgid "Alphabetical List"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3474
+msgid "Please wait while you are redirected to PayPal..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3559
+msgid "Not a valid email address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3565
+msgid "Not a valid number"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3572
+msgid "Not a valid phone number. Most US/Canada and International formats accepted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/visual-form-builder-pro.php:3577
+msgid "Not a valid URL."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:83
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:88
+msgid "Form Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:121
+msgid "Form Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:123
+msgid "Duplicate Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:126
+msgid "Delete Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:137
+msgid "Label Alignment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:142
+msgid "Top Aligned"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:143
+msgid "Left Aligned"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:144
+msgid "Right Aligned"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:151
+msgid "Display SPAM Verification"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:156
+msgid "Yes (Recommended)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:167
+msgid "The forms you build here will send information to one or more email addresses when submitted by a user on your site.  Use the fields below to customize the details of that email."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:172
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:349
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:24
+msgid "E-mail Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:183
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:17
+msgid "Your Name or Company"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:191
+msgid "User's Name (optional)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:195
+msgid "Select a required text field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:209
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:324
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:31
+msgid "Reply-To E-mail"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:217
+msgid "User's E-mail (optional)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:221
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:337
+msgid "Select a required email field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:243
+msgid "E-mail(s) To"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:263
+msgid "After someone submits a form, you can control what is displayed. By default, it's a message but you can send them to another WordPress Page or a custom URL."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:266
+msgid "Text"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:270
+msgid "Page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:274
+msgid "Redirect"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:283
+msgid "Your form was successfully submitted. Thank you for contacting us."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:293
+msgid "Select a Page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:306
+msgid "When a user submits their entry, you can send a customizable notification email."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:309
+msgid "Send Confirmation Email to User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:315
+msgid "Sender Name or Company"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:333
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:38
+msgid "E-mail To"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:357
+msgid "Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:365
+msgid "Include a Copy of the User's Entry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:373
+msgid "Forward successful form submissions to PayPal to collect simple payments, such as registration fees."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:377
+msgid "Use this form as a PayPal form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:383
+msgid "Account Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:392
+msgid "Currency"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:409
+msgid "Shipping"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:418
+msgid "Tax Rate"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:427
+msgid "Item Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:435
+msgid "Assign Prices"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:439
+msgid "Assign Prices to a Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:487
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:519
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:47
+msgid "Create Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:487
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:489
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:519
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:521
+msgid "Save Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-form-creator.php:500
+msgid "Note: to ensure your form displays and functions correctly, be sure a Fieldset is the first field."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:5
+msgid "Create a form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:10
+msgid "Name the form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:12
+msgid "Enter form name here"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:13
+msgid "Required. This name is used for admin purposes."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:20
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:27
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:34
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:41
+msgid "Optional - you can change this later"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:51
+msgid "Need more help?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:53
+msgid "Click on the Help tab"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/admin-new-form.php:60
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:36
+msgid "Select which form analytics to view"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:57
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:72
+msgid "Select"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:63
+msgid "Entries Total"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:67
+msgid "Average per Day"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:71
+msgid "Your Busiest Day"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:79
+msgid "Days"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:80
+msgid "Weeks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:81
+msgid "Months"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:84
+msgid "Overview"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:86
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:92
+msgid "Loading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-analytics.php:90
+msgid "Percentage Change Over Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:34
+msgid "Select email to design:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:83
+msgid "Colors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:93
+msgid "Header Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:99
+msgid "Remove Header Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:102
+msgid "Images of exactly <strong>600 x 137</strong> pixels will be used as-is."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:106
+msgid "Body Background Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:110
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:117
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:124
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:131
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:138
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:145
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:152
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:159
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:166
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:173
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:180
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:187
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:194
+msgid "Default color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:113
+msgid "Header Background Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:120
+msgid "Header Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:127
+msgid "Fieldset Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:134
+msgid "Section Background Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:141
+msgid "Section Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:148
+msgid "Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:155
+msgid "Link Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:162
+msgid "Row Background Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:169
+msgid "Alternate Row Background Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:176
+msgid "Row Border Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:183
+msgid "Footer Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:190
+msgid "Footer Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:197
+msgid "Fonts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:200
+msgid "Font Family"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:212
+msgid "Header Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:220
+msgid "Fieldset Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:228
+msgid "Section Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:236
+msgid "Text Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:244
+msgid "Footer Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:255
+msgid "Email Format"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:263
+msgid "Link back to Visual Form Builder?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:271
+msgid "Additional Footer Text"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:276
+msgid "Save Changes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-email-designer.php:280
+msgid "Save options to view your recent changes."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:41
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:109
+msgid "Entry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:46
+msgid "Details"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:55
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:95
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:250
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:305
+msgid "Date Submitted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:61
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:90
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:252
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:307
+msgid "Email Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:64
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:91
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:253
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:308
+msgid "Sender Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:67
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:92
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:254
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:309
+msgid "Sender Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:70
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:93
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:255
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:310
+msgid "Emailed To"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-detail.php:73
+msgid "Notes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:60
+msgid "Edit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:60
+msgid "View"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:89
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:249
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:76
+msgid "Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:180
+msgid "Export Selected"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:227
+msgid "You must select at least one entry to export."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:248
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:304
+msgid "Entries ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:408
+msgid "View all forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:415
+msgid "Filter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:445
+msgid "Show all dates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-entries-list.php:457
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:651
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:40
+msgid "Backup and save some or all of your Visual Form Builder Pro data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:41
+msgid "Once you have saved the file, you will be able to import Visual Form Builder Pro data from this site into another site."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:42
+msgid "Choose what to export"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:44
+msgid "All data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:45
+msgid "This will contain all of your forms, fields, entries, and email design settings."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:50
+msgid "This will contain all of your forms, fields, and email design settings."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:67
+msgid "This will export entries in either a .csv or .xls and cannot be used with the Import.  If you need to import entries on another site, please use the All data option above."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:69
+msgid "Format"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:71
+msgid "Comma Separated (.csv)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:72
+msgid "Excel (.xls)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:86
+msgid "Date Range"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-export.php:97
+msgid "Download Export File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:50
+msgid "Select a Visual Form Builder Pro backup file (.xml), then click Upload file and import."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:90
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:99
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:388
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:393
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:402
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:429
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:91
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:122
+msgid "All done."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:122
+msgid "View Forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:169
+msgid "Form ID already exists. Assigning a new form ID."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:175
+#, php-format
+msgid "<strong>Error: </strong> The %s form could not be imported."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:181
+msgid "Form import process complete."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:236
+#, php-format
+msgid "<strong>Error: </strong> The %s field could not be imported."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:269
+msgid "Field import process complete."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:312
+msgid "<strong>Error: </strong> An entry could not be imported."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:315
+msgid "Entries import process complete."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:394
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:410
+#, php-format
+msgid "This Visual Form Builder Pro export file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:462
+msgid "There was an error when reading this Visual Form Builder Pro export file"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:466
+msgid "This does not appear to be an XML file, missing/invalid Visual Form Builder Pro version number"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/class-import.php:471
+msgid "This does not appear to be a XML file, missing/invalid Visual Form Builder Pro version number"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:14
+msgid "Security check: hidden spam field should be blank."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:16
+msgid "Security check: failed secret question. Please try again!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:25
+msgid "Security check: unable to verify nonce value."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:29
+msgid "Security check: looks like you are a SPAM bot. If you think this is an error, please email the site owner."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:192
+#, php-format
+msgid "File size exceeds %dMB. Most email providers will reject emails with attachments larger than %dMB. Please decrease the file size and try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:385
+msgid "Your responses look too much like spam and could not be sent at this time."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder-pro/includes/email.php:494
+msgid "The e-mail could not be sent. Please report this error to the site owner."
+msgstr ""
+

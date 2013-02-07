@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <title>Ziceinclude&trade; admin version 1.7 online</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link shortcut icon-->
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/> 
+
+        <!-- CSS Stylesheet-->
+        <link type="text/css" rel="stylesheet" href="components/bootstrap/bootstrap.css" />
+        <link type="text/css" rel="stylesheet" href="components/bootstrap/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/zice.style.css"/>
+
+		
+        <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="components/flot/excanvas.min.js"></script><![endif]-->  
+		
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="components/ui/jquery.ui.min.js"></script> 
+		<script type="text/javascript" src="components/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="components/ui/timepicker.js"></script>
+        <script type="text/javascript" src="components/colorpicker/js/colorpicker.js"></script>
+        <script type="text/javascript" src="components/form/form.js"></script>
+        <script type="text/javascript" src="components/elfinder/js/elfinder.full.js"></script>
+        <script type="text/javascript" src="components/datatables/dataTables.min.js"></script>
+        <script type="text/javascript" src="components/fancybox/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="components/jscrollpane/jscrollpane.min.js"></script>
+        <script type="text/javascript" src="components/editor/jquery.cleditor.js"></script>
+        <script type="text/javascript" src="components/chosen/chosen.js"></script>
+        <script type="text/javascript" src="components/validationEngine/jquery.validationEngine.js"></script>
+        <script type="text/javascript" src="components/validationEngine/jquery.validationEngine-en.js"></script>
+        <script type="text/javascript" src="components/fullcalendar/fullcalendar.js"></script>
+        <script type="text/javascript" src="components/flot/flot.js"></script>
+        <script type="text/javascript" src="components/uploadify/uploadify.js"></script>       
+		<script type="text/javascript" src="components/Jcrop/jquery.Jcrop.js"></script>
+		<script type="text/javascript" src="components/smartWizard/jquery.smartWizard.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/zice.custom.js"></script>
+        
+		</head>        
+        <body>        
+        
+            <!-- Header -->
+            <div id="header">
+                <ul id="account_info" class="pull-right"> 
+                    <li><img src="images/avatar.png" alt="Online" /></li>
+                    <li class="setting">
+                        Welcome, <b class="red">John Doe</b>
+                        <ul class="subnav">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Setting</a></li>
+                            <li><a href="#">Reset password</a></li>
+                            <br class="clearfix"/>
+                        </ul>
+                    </li>
+                    <li class="logout" title="Disconnect">Logout</li> 
+                </ul>
+            </div><!-- End Header -->
+
+              <!-- left_menu -->
+              <div id="left_menu">
+                    <ul id="main_menu" class="main_menu">
+                      <li><a href="dashboard.html"><span class="ico gray shadow home" ></span><b>Dashboard</b></a></li>
+                      <li><a href="#" ><span class="ico gray shadow window"></span><b>Form elements</b></a>
+                        <ul>
+                          <li ><a href="form.html"> basic form </a></li>
+                          <li ><a href="vform.html"> validation </a></li>
+                          <li ><a href="wizard.html"> wizard </a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#"><span class="ico gray  dimensions" ></span><b>Sample pages</b></a>
+                        <ul>
+                          <li ><a href="profile.html"> Profile setting </a></li>
+                          <li ><a href="conversation.html"> conversation</a></li>
+                          <li ><a href="imagesEditor.html"> Images Editor </a></li>
+                          <li ><a href="barcode.html"> barcode </a></li>
+                          <li ><a href="messages.html"> messages </a></li>
+                          <li ><a href="grid.html"> Grid System </a></li>
+                        </ul>
+                      </li>
+					  <li><a href="ajax.html"><span class="ico gray shadow   encrypt"></span><b>Sample ajax</b> </a></li>
+                      <li class="select"><a href="table.html"><span class="ico gray shadow  spreadsheet"></span><b>Tables</b> </a></li>
+                      <li><a href="gallery.html"><span class="ico gray shadow pictures_folder"></span><b>Gallery </b></a></li>
+                      <li><a href="#"><span class="ico gray shadow stats_lines"></span><b>Graph and Charts</b> </a>
+                        <ul>
+                          <li><a href="modalchartLive.html" class="pop_box">live chart </a></li>
+                          <li><a href="chart.html">all chart</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="filemanager.html"><span class="ico gray shadow  file"></span><b>File manager </b></a></li>
+                      <li><a href="calendar.html"><span class="ico gray shadow calendar"></span><b>Calendar </b></a></li>
+                      <li><a href="typography.html"><span class="ico gray  shadow paragraph_align_left"></span><b>Typography</b></a></li>
+                      <li><a href="inelement.html"><span class="ico gray shadow abacus"></span><b>Interface elements </b></a></li>
+                      <li><a href="map.html"><span class="ico gray shadow  location"></span><b>Map location </b></a></li>
+                      <li><a href="icon.html"><span class="ico gray  shadow satellite"></span><b>Icon and Button </b></a></li>
+					  <li><a href="404.html"><span class="ico gray  shadow firewall"></span><b>Error Pages</b></a></li>
+                    </ul>
+               </div>
+            
+              <div id="content" >
+                <div class="inner">
+                                    
+                    <div class="row-fluid">
+                          <div class="span12 clearfix">
+                              <div class="logo"></div>
+                              <ul  id="shortcut" class="clearfix">
+                              <li> <a href="#" title="Back To home"> <img src="images/icon/shortcut/home.png" alt="home"/><strong>Home</strong> </a> </li>
+                              <li> <a href="#" title="Website Graph"> <img src="images/icon/shortcut/graph.png" alt="graph"/><strong>Graph</strong> </a> </li>
+                              <li> <a href="#" title="Setting" > <img src="images/icon/shortcut/setting.png" alt="setting" /><strong>Setting</strong></a> </li> 
+                              <li> <a href="#" title="Messages"> <img src="images/icon/shortcut/mail.png" alt="messages" /><strong>Message</strong></a><div class="notification" >10</div></li>
+                              </ul>
+                          </div>
+                    </div>
+                    
+                    <div class="row-fluid">
+                    		<!--  widget -->
+                            <div class="widget  span12 clearfix">
+                                <div class="widget-header">
+                                    <span><i class="icon-table"></i> Documentation</span>
+                                </div><!-- End widget-header -->	
+                                <div class="widget-content">
+                                
+                                </div><!--  end widget-content -->
+                            </div><!-- widget  span12 clearfix-->
+
+                    </div><!-- row-fluid -->
+
+                    <div class="row-fluid">
+                    		<!--  widget -->
+                            <div class="widget  span12 clearfix">
+                                <div class="widget-header">
+                                    <span><i class="icon-table"></i> User manual guide</span>
+                                </div><!-- End widget-header -->	
+                                <div class="widget-content">
+
+<div class="clear"></div>
+<h3>form clone  </h3>
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+// Form Cloning 
+var sheepItForm = $('#cloneForm').sheepIt({
+    separator: '',
+    allowRemoveLast: true,
+    allowRemoveCurrent: true,
+    allowRemoveAll: true,
+    allowAdd: true,
+    maxFormsCount: 10,
+    minFormsCount: 0,
+    iniFormsCount: 2
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div id="cloneForm">
+  <!-- Form template-->
+  <div id="cloneForm_template">
+      <div class="section">
+            <label>input <span id="cloneForm_label"></span><small>Clone<span id="cloneForm_label"></span> </small></label>
+            <div> <input type="text"  id="input_#index#_clone" class=" medium" name="#index#" /> <a id="cloneForm_remove_current" class="clone-delete"><i class="icon-remove"></i></a></div>
+      </div>
+  </div>
+  <div id="cloneForm_noforms_template">
+        <div class="alert alert-block  alert-info"> Add a new input  with click  <strong> New input </strong>.</div>
+  </div>
+  <div class="section last">
+          <div id="cloneForm_controls">
+            <span id="cloneForm_add" class="tip"><a class="btn btn-large" title="New input"><i class="icon-plus"></i> New input</a></span>
+            <span id="cloneForm_remove_last" class="tip"><a class="btn btn-large" title="Remove"><i class="icon-trash"></i></a></span>
+            <span id="cloneForm_remove_all" class="tip"><a class="btn btn-large btn-danger" title="Remove All">Remove All</a></span>
+          </div>
+  </div>
+</div></pre>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : Form Cloning   </legend>
+<div>
+        <a href="form.html">See Demo</a>                    
+</div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<hr/>
+<h3>New Masonry  </h3>
+<p><strong>Masonry   : </strong>includes filename  components/masonry/jquery.masonry.min.js<br />
+Masonry is a dynamic grid layout plugin for jQuery. Think of it as the flip-side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically, positioning each element in the next open spot in the grid. The result minimizes vertical gaps between elements of varying height, just like a mason fitting stones in a wall.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+    var $container = $('#container');
+  
+    $container.imagesLoaded( function(){
+      $container.masonry({
+        itemSelector : '.boxs'
+      });
+    });</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div id="container">
+  <div class="item">...</div>
+  <div class="item">...</div>
+  <div class="item">...</div>
+  ...
+</div></pre>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : Masonry  </legend>
+<div>
+        <a href="gallery.html">See Demo</a>                    
+</div>
+</fieldset>
+</div>
+<div class="clear"></div>
+
+                    
+<h3>Form general structure</h3>
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<form> 
+      <div class="section" >
+          <label> full <small>Text custom</small></label>   
+          <div> <input type="text" class=" full" /><span class="f_help">Text custom help</span></div>
+     </div>
+      <div class="section">
+          <label> large <small>Text custom</small></label>   
+          <div> <input type="text"  class=" large" /><span class="f_help">Text custom help</span></div>
+     </div>
+      <div class="section last">
+      <div><a class="uibutton submit_form" >submitForm</a></div>
+     </div>
+</form>
+</pre><br />
+<div class=" grid2 formEl_b">
+<fieldset>
+<legend>Output :</legend>
+<form> 
+      <div class="section" >
+          <label> full <small>Text custom</small></label>   
+          <div> <input type="text" class=" full" /><span class="f_help">Text custom help</span></div>
+     </div>
+      <div class="section">
+          <label> large <small>Text custom</small></label>   
+          <div> <input type="text"  class=" large" /><span class="f_help">Text custom help</span></div>
+     </div>
+      <div class="section last">
+      <div><a class="uibutton submit_form" >submitForm</a></div>
+     </div>
+</form>
+</fieldset>
+</div>
+<div class=" grid2 ">
+<p>
+	You can add class full,large,medium,small,xsmall,xxsmall for input width :
+    <ul class="list_arrow">
+      <li> <strong>.full</strong> - width 98% box. </li>
+      <li> <strong>.large</strong> - width 69% box. </li>
+      <li> <strong>.medium</strong> - width 75% box. </li>
+      <li> <strong>.small</strong> - width 20% box. </li>
+      <li> <strong>.xsmall</strong> - width 10% box. </li>
+      <li> <strong>.xxsmall</strong> - width 5% box. </li>
+    </ul>
+</p>
+</div>
+<div class="clear"></div>
+<hr>
+<h3>Form  validation </h3>
+<p><strong>validationEngine :</strong> includes filename 2 file 1.jquery.validationEngine.js , 2.jquery.validationEngine-en.js</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$("#formexample").validationEngine(action or options);</pre><br />
+
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<form id="formexample"> 
+    <div class="section ">
+    <label> input size<small>Text custom</small></label>   
+    <div>  <input type="text" class="validate[required] large" name="f_required" id="f_required"></div>
+    </div> 
+    <div class="section ">
+    <label> Email validate<small>Text custom</small></label>   
+    <div>  <input type="text" class="validate[required,custom[email]]  large" name="e_required" id="e_required"></div>
+    </div>
+    <div class="section last">
+    <div><a class="uibutton submit_form" >submitForm</a></div>
+   </div>
+</form>
+</pre><br />
+<div class=" grid3 formEl_b">
+<fieldset>
+<legend>Output : Form  validation  </legend>
+                               <form id="validation_demo" action=""> 
+                                    <div class="section ">
+                                    <label> input size<small>Text custom</small></label>   
+                                    <div> 
+                                    <input type="text" class="validate[required] large" name="f_required" id="f_required">
+                                    </div>
+                                    </div> 
+                                    <div class="section ">
+                                    <label> Email validate<small>Text custom</small></label>   
+                                    <div> 
+                                    <input type="text" class="validate[required,custom[email]]  large" name="e_required" id="e_required">
+                                    </div>
+                                    </div>
+                                    <div class="section last">
+                                    <div><a class="uibutton submit_form" >submitForm</a></div>
+									<div>More . <a href="http://www.position-absolute.com/articles/jquery-form-validator-because-form-validation-is-a-mess/">Example and Document Help</a></div>
+                                   </div>
+                              </form>
+</fieldset>
+</div>
+<div class="clear"></div>
+<hr/>
+<h3>checkboxs </h3>
+<p>
+Zice admin Themes  includes two checkbox plugins
+</p>
+<p><strong>iOS Style :</strong> includes filename iphone.check.js</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+// Default  label ON / OFF
+$(".iOScheckbox").iphoneStyle(); 
+
+//Custom label
+$(".iOScustom").iphoneStyle({
+  checkedLabel: "in stocks",
+  uncheckedLabel: "out stocks",
+  labelWidth:'76px'
+}); </pre><br />
+    
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!-- // Default  label ON / OFF-->
+ <input type="checkbox"  class="iOScheckbox"   checked="checked" />
+<!-- // Custom label-->
+ <input type="checkbox"  class="iOScustom"   /></pre>
+
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : iOS Style</legend>
+          <div> <input type="checkbox"  class="on_off_checkbox"   checked="checked" /><span class="f_help">// Default  label ON / OFF</span></div>
+          <div> <input type="checkbox"  class="preOrder"   /><span class="f_help">//Custom label</span></div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<p><strong>Custom Input Style :</strong> includes filename customInput.jquery.js</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+// checkbox and  radio 
+$('.customcheckbox').customInput();</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<input type="checkbox" id="checkNormal" class="customcheckbox"/>
+<label for="checkNormal">Checkbox</label>
+<input type="radio" id="customradio" value="1"  class="customcheckbox"/>
+<label for="customradio">Radio button</label></pre>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : Custom Input Style</legend>
+<div> 
+<input type="checkbox" id="check" class="ck"/>
+<label for="check">Checkbox</label>
+<input type="radio" id="customradio1" class="ck"/>
+<label for="customradio1">Radio button</label>
+</div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<p><strong>Checkbox Limit  :</strong></p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('.limit3max').limitInput({
+    max:3, // Max  Checkbox Limit  (integer)
+    disablelabels:true // Show Disable labels  with  Max Limit  (false / true)
+}); </pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div class="limit3max">
+      <input type="checkbox"  id="customcheckbox-1" class="customcheckbox" checked="checked"/>
+      <label for="customcheckbox-1">Action / Adventure</label>
+      
+      <input type="checkbox"  id="customcheckbox-2" class="customcheckbox" checked="checked"/>
+      <label for="customcheckbox-2">Comedy</label>
+      
+      <input type="checkbox"  id="customcheckbox-3"  class="customcheckbox"/>
+      <label for="customcheckbox-3">Epic / Historical</label>
+      
+      <input type="checkbox"  id="customcheckbox-4" class="customcheckbox" />
+      <label for="customcheckbox-4">Science Fiction</label>
+      
+      <input type="checkbox" id="customcheckbox-5" class="customcheckbox"/>
+      <label for="customcheckbox-5">Romance</label>
+</div></pre>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : checkbox limit</legend>
+<div class="limit3m">
+      <input type="checkbox" name="genre" id="check-1" value="action"  class="ck" checked="checked"/>
+      <label for="check-1">Action / Adventure</label>
+      
+      <input type="checkbox" name="genre" id="check-2" value="comedy" class="ck" checked="checked"/>
+      <label for="check-2">Comedy</label>
+      
+      <input type="checkbox" name="genre" id="check-3" value="epic" class="ck"/>
+      <label for="check-3">Epic / Historical</label>
+      
+      <input type="checkbox" name="genre" id="check-4" value="science" class="ck" />
+      <label for="check-4">Science Fiction</label>
+      
+      <input type="checkbox" name="genre" id="check-5" value="romance" class="ck"/>
+      <label for="check-5">Romance</label>
+</div>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+<h3>Fileupload </h3>
+<p><strong>Fileupload Style  : </strong>includes filename  components/filestyle/jquery.filestyle.js<br />
+File Style Plugin for jQuery. Browsers do not let you style file inputs. File Style plugin fixes this problem. It enables you to use image as browse button. You can also style filename field as normal textfield using css. It is written using JavaScript and jQuery.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+ $(".Fileupload").filestyle();</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<input type="file" class="Fileupload" /></pre>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : Fileupload Style </legend>
+<div>
+                                <input type="file" class="fileupload" />
+                                
+</div>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+<h3>selection </h3>
+<p><strong>selection Style  :  </strong></p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('select').selectmenu();</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<select  >
+   <option value="1"  >One</option>
+   <option value="2"  >Two</option>
+   <option value="3"  >Three</option>
+   .............
+</select> </pre>
+<br/>
+<div class=" grid1 formEl_b">
+<fieldset>
+<legend>Output : selection Style </legend>
+<div>
+<select  class="small" >
+   <option value="1"  >One</option>
+   <option value="2"  >Two</option>
+   <option value="3"  >Three</option>
+   <option value="4"  >Four</option>
+   <option value="5"  >five</option>
+</select>
+</div>
+</fieldset>
+</div>
+<div class="clear"></div>
+
+<p><strong>Searchable selection Style  : </strong> includes filename  components/chosen/chosen.js </p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$(".chzn").chosen(); </pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!-- //select -->
+<select  class="chzn" >
+  <option value="United States">United States</option> 
+  <option value="United Kingdom">United Kingdom</option> 
+   .............
+</select> 
+
+<!-- //select multiple-->
+<select  class="chzn"  multiple="multiple">
+  <option value="United States">United States</option> 
+  <option value="United Kingdom">United Kingdom</option> 
+   .............
+</select> </pre>
+<div class=" grid2 formEl_b">
+<fieldset>
+<legend>Output : Selection Searchable </legend>
+<div>
+<select  class="chzn-select" >
+    <option value="United States">United States</option> 
+    <option value="United Kingdom">United Kingdom</option> 
+    <option value="Afghanistan">Afghanistan</option> 
+    <option value="Albania">Albania</option> 
+    <option value="Algeria">Algeria</option> 
+    <option value="American Samoa">American Samoa</option> 
+    <option value="Andorra">Andorra</option> 
+    <option value="Angola">Angola</option> 
+    <option value="Anguilla">Anguilla</option> 
+    <option value="Antarctica">Antarctica</option> 
+    <option value="Antigua and Barbuda">Antigua and Barbuda</option> 
+</select>
+</div>
+</fieldset>
+</div>
+<div class=" grid2 formEl_b">
+<fieldset>
+<legend>Output : Selection Multiple </legend>
+<div>
+<select  class="chzn-select"  multiple="multiple">
+    <option value="United States">United States</option> 
+    <option value="United Kingdom" selected="selected">United Kingdom</option> 
+    <option value="Afghanistan">Afghanistan</option> 
+    <option value="Albania" selected="selected">Albania</option> 
+    <option value="Algeria">Algeria</option> 
+    <option value="American Samoa">American Samoa</option> 
+    <option value="Andorra">Andorra</option> 
+    <option value="Angola">Angola</option> 
+    <option value="Anguilla">Anguilla</option> 
+    <option value="Antarctica">Antarctica</option> 
+    <option value="Antigua and Barbuda">Antigua and Barbuda</option> 
+</select>
+</div>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+<h3>Text editor </h3>
+<p><strong>Text editor   : </strong> includes filename  components/editor/jquery.cleditor.js <br />
+CLEditor is an open source jQuery plugin which provides a lightweight, full featured, cross browser, extensible, WYSIWYG HTML editor that can be easily added into any web site.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$("#texteditor").cleditor();	</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<textarea name="texteditor" id="texteditor" ></textarea></pre>
+<div class=" formEl_b">
+<fieldset>
+<legend>Output : Text editor  </legend>
+<div>
+<textarea name="editor" id="editor" ></textarea>
+</div><br />
+<div>More . <a href="http://premiumsoftware.net/cleditor/">Example and Document Help</a></div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<hr/>
+<h3>Multiupload  </h3>
+<p><strong>uploadify    : </strong> includes filename  components/uploadify/uploadify.js <br />
+Uploadify is a jQuery plugin that integrates a fully-customizable multiple file upload utility on your website. It uses a mixture of Javascript, ActionScript, and any server-side language to dynamically create an instance over any DOM element on a page.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('#uploadify').uploadify({
+    'uploader'  : 'components/uploadify/uploadify.swf',
+    'script'    : 'components/uploadify/uploadify.php',
+    'cancelImg' : 'components/uploadify/cancel.png',
+    'folder'    : 'uploads',
+});	</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+  <div class="demo-box">
+  <div style="border:#f4f4f4 20px solid; border-bottom:13px solid #f4f4f4">
+    <div id="custom-queue" class="custom-queue"></div>
+  </div>
+  </div>
+  <div id="uploadButton">
+        <div id="uploadify"></div>
+  </div>
+  <div id="uploadButtondisable"></div>
+  <div class="upload-group">
+      <a class="uibutton  icon add greenBtn"  id="upload_b">ADD FILE</a>
+      <a href="javascript:$('#uploadify').uploadifyClearQueue();" class="uibutton disable" id="upload_c">CLEAR FILE</a>
+      <a class="uibutton  disable "  id="uploadFile" >upload</a>            
+      <span id="status-message"></span>
+  </div></pre>
+<br />
+<div>More . <a href="http://www.uploadify.com/documentation/">Example and Document Help</a></div>
+<br />
+
+<div class="clear"></div>
+<hr/>
+<h3>Scrollpane </h3>
+<p><strong> jscrollpane  : </strong> includes filename  3 file 
+<p>
+<ul class="list_arrow">
+<li>jscrollpane.min.js</li>
+<li>mousewheel.js</li>
+<li>mwheelIntent.js</li>
+</ul>
+</p>
+jScrollPane is a cross-browser jQuery plugin by Kelvin Luck which converts a browser's default scrollbars (on elements with a relevant overflow property) into an HTML structure which can be easily skinned with CSS.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('.overflow').jScrollPane({ autoReinitialise: true });</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div class="overflow">
+Lorem ipsum dolor sit amet, consectetur adipiscing 
+......
+</div></pre>
+<div class=" grid2 formEl_b">
+<fieldset>
+<legend>Output : jScrollPane   </legend>
+<div>
+                                <p class="overflow" style="height:165px">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Quisque non leo convallis nibh tristique commodo.
+                                    Cras tincidunt hendrerit pharetra. Etiam erat magna,
+                                    egestas sed placerat at, congue sed nisi. Nullam
+                                    eget varius leo. Integer at justo a velit imperdiet
+                                    pulvinar. Sed magna mi, sodales sit amet aliquet
+                                    ac, eleifend eget sem. Nam ipsum lectus, fringilla
+                                    sed rutrum ac, tempus in orci. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Quisque non leo convallis nibh tristique commodo.
+                                    Cras tincidunt hendrerit pharetra. Etiam erat magna,
+                                    egestas sed placerat at, congue sed nisi. Nullam
+                                    eget varius leo. Integer at justo a velit imperdiet
+                                    pulvinar. Sed magna mi, sodales sit amet aliquet
+                                    ac, eleifend eget sem. Nam ipsum lectus, fringilla
+                                    sed rutrum ac, tempus in orci.  Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Quisque non leo convallis nibh tristique commodo.
+                                    Cras tincidunt hendrerit pharetra. Etiam erat magna,
+                                    egestas sed placerat at, congue sed nisi. Nullam
+                                    eget varius leo. Integer at justo a velit imperdiet
+                                    pulvinar. Sed magna mi, sodales sit amet aliquet
+                                    ac, eleifend eget sem. Nam ipsum lectus, fringilla
+                                    sed rutrum ac, tempus in orci. </p>
+</div><br />
+<div>More . <a href="http://jscrollpane.kelvinluck.com/">Example and Document Help</a></div>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+  
+<h3> tootip</h3>
+<p><strong>Tootip tipsy   : </strong> includes filename  components/tipsy/jquery.tipsy.js <br />
+Tipsy is a jQuery plugin for creating a Facebook-like tooltips effect based on an anchor tag's title attribute.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+<!-- // Default  Event mouse Hover-->
+$('.setip a ').tipsy({gravity: 'se',live: true});	
+<!-- // Default  Event mouse focus-->
+$('.wtip input').tipsy({ trigger: 'focus', gravity: 'w',live: true });</pre><br />
+
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!-- // Default  Event mouse Hover-->
+<span class="setip"><a class="uibutton icon prev normal" title="top" >button</a></span>
+<!-- // Default  Event mouse focus-->
+<span class="wtip"><input type="text" name="menu" id="menu"  class=" medium" title="right" /></span></pre>                           
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Tootip tipsy  </legend>
+<div><span class="tip"><a class="uibutton icon prev normal" title="top" >button</a></span></div><br />
+<div><span class="wtip"><input type="text" name="menu" id="menu"  class=" medium" title="right" /></span></div><br />
+<div>More . <a href="http://onehackoranother.com/projects/jquery/tipsy/">Example</a></div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<hr/>
+<h3> Loading And Overlay</h3>
+
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('.loading').live('click',function() { 
+      var str=$(this).attr('title'); 
+      var overlay=$(this).attr('rel'); 
+      loading(str,overlay);
+      setTimeout("unloading()",1500); 
+});</pre><br />
+
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<ul class="uibutton-group">
+      <!--// Text loading with title-->
+      <li><a  class="uibutton normal loading"  title="Loading" >loading</a></li>
+      <!--// overlay loading with rel='1' -->
+      <li><a  class="uibutton normal loading"  title="Loading"  rel="1" > with overlay</a></li>
+</ul></pre>                           
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Loading  And Overlay </legend>
+<ul class="uibutton-group">
+      <li><a  class="uibutton normal loading"  title="Loading" >loading</a></li>
+      <li><a  class="uibutton normal loading"  title="Loading"  rel="1" > with overlay</a></li>
+</ul>
+</fieldset>
+</div>
+<div class="clear"></div>
+
+<hr/>
+<h3>notify message  </h3>
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<ul class="uibutton-group">
+<!--// call function showError ( string , timeout )-->
+      <li><a  class="uibutton normal " onclick="showError('error();  //ex.php  line105 ',3000);"  >error </a></li>
+<!--// call function showSuccess ( string , timeout )-->
+      <li><a  class="uibutton normal " onclick="showSuccess('save in shopping bag',3000);" > Success </a></li>
+</ul></pre>                           
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Notify message  </legend>
+<ul class="uibutton-group">
+      <li><a  class="uibutton normal " onclick="showError('error();  //ex.php  line105 ',3000);"  >error </a></li>
+      <li><a  class="uibutton normal " onclick="showSuccess('save in shopping bag',3000);" > Success </a></li>
+</ul>
+</fieldset>
+</div>
+<div class="  grid3 formEl_b">
+<fieldset>
+<legend>Option : Notify message  </legend>
+	<ul class="list_arrow">
+    	<li><strong>showError() </strong>-call to Error message</li>
+        <li><strong>showSuccess() </strong>-call to Success message</li>
+        <li><strong>showWraning() </strong>-call to  Wraning message</li>
+        <li><strong>showInfo() </strong>-call to Info message</li>
+    </ul>
+</fieldset>
+</div>
+<div class="clear"></div>
+ 
+ <hr/>
+<h3>VERTICAL NEWS TICKER</h3>
+<p><strong>vticker jquery  : </strong> includes filename  components/vticker/jquery.vticker-min.js<br />
+This plugin for easy and simple vertical news automatic scrolling.
+
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('.myclass').vTicker({
+speed: 500,
+pause: 3000,
+showItems: 3,
+animation: 'fade',
+mousePause: false,
+height: 0,
+direction: 'up'
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div class='myclass'>
+<ul>
+<li>some content</li>
+<li>some content</li>
+...
+</ul>
+</div></pre>                           
+<div class="  grid2 formEl_b">
+<fieldset>
+<legend>Output : VERTICAL NEWS TICKER    </legend>
+<div id="news_update" style="position: relative;" >
+  <ul style="position: absolute; margin: 0pt; padding: 0pt; top: 0px; width: 100%;">
+      <li>
+          <div class="temp_news"><img src="exampic/25.jpg" alt="emptyimg" /></div>
+          <div class="detail_news">
+              <div class="boxtitle min" > New update, topic 1</div>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Quisque non leo
+                  convallis nibh tristique commodo. </p>
+              <span class="datepost">02/25/2012</span><span class="morelink"><a href="#" class="red">more</a></span> </div>
+          <br class="clear"/>
+      </li>
+      <li>
+          <div class="temp_news"><img src="exampic/23.jpg" alt="emptyimg" /></div>
+          <div class="detail_news">
+              <div class="boxtitle min" > New update , topic 2</div>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Quisque non leo
+                  convallis nibh tristique commodo. </p>
+              <span class="datepost">02/25/2012</span><span class="morelink"><a href="#" class="red">more</a></span> </div>
+          <br class="clear"/>
+      </li>
+      <li>
+          <div class="temp_news"><img src="exampic/26.jpg" alt="emptyimg"/></div>
+          <div class="detail_news">
+              <div class="boxtitle min" > New update , topic 3</div>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Quisque non leo
+                  convallis nibh tristique commodo. </p>
+              <span class="datepost">02/25/2012</span><span class="morelink"><a href="#" class="red">more</a></span> </div>
+          <br class="clear"/>
+      </li>
+  </ul>
+</div><br />
+<div>More . <a href="http://www.jugbit.com/jquery-vticker-vertical-news-ticker/">Example</a></div>
+</fieldset>
+</div>
+<div class="  grid2 formEl_b">
+<fieldset>
+<legend>Option : VERTICAL NEWS TICKER   </legend>
+	<ul class="list_arrow">
+<li><strong>speed</strong> – speed of scrolling animation (default 700)</li>
+<li><strong>pause</strong> – wait time between scrolling (default 4000)</li>
+<li><strong>showItems</strong> – how many items to show (default 2)</li>
+<li><strong>animation</strong> – animation of sliding. To fade in/fade out use a value ‘fade’</li>
+<li><strong>mousePause</strong> – stop scrolling on mouse over (default true)</li>
+<li><strong>height</strong> – set vTicker container height. Also disables all items auto height calculation. It is usable to remove space gaps between items. (default 0 – it means off)</li>
+<li><strong>direction</strong> – which direction all items will move. Values are ‘up’ and ‘down’. (default ‘up’)</li>
+    </ul>
+</fieldset>
+</div>
+
+<div class="clear"></div>   
+<hr/>
+<h3>Effect Demo </h3>
+<p><strong>Effect Demo  : </strong> includes filename  components/effect/jquery-jrumble.js<br />
+jRumble is a jQuery plugin that rumbles, vibrates, shakes, and rotates any element you choose. It's great to use as a hover effect or a way to direct attention to an element.
+
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+// Initialize jRumble on Selector
+$('.SEclick').jrumble();
+
+// Start rumble on element
+$('.SEclick').trigger('startRumble');
+
+// Stop rumble on element
+$('.SEclick').trigger('stopRumble');
+
+// Demo 1
+$('#demo1').jrumble({
+	x: 2,
+	y: 2,
+	rotation: 1
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div class="alertMessage error SEclick">error();</div> </pre>                           
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Effect Demo   </legend>
+<div class="alertMessage error SEclick">error();</div> <br />
+<div>More . <a href="http://jackrugile.com/jrumble/">Example</a></div>
+</fieldset>
+</div>
+<div class="  grid3 formEl_b">
+<fieldset>
+<legend>Option : Effect Demo  </legend>
+	<ul class="list_arrow">
+          <li><strong>X </strong>- Set the horizontal rumble range (pixels)</li>
+          <li><strong>Y</strong>- Set the vertical rumble range (pixels)</li>
+          <li><strong>rotation </strong>- Set the rotation range (degrees)</li>
+          <li><strong>speed </strong>- Set the speed/frequency in milliseconds between rumble movements (lower number = faster)</li>
+          <li><strong>opacity </strong>- Activate opacity flickering while rumbling (false / true)</li>
+          <li><strong>opacityMin </strong>- When the opacity option is set to true, this controls the minimum opacity while flickering</li>
+    </ul>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+<h3> jQuery UI </h3>
+<p><strong>jQuery UI   : </strong> includes filename  components/ui/jquery.ui.min.js<br />
+jQuery UI provides a comprehensive set of core interaction plugins, UI widgets and visual effects that use a jQuery-style, event-driven architecture and a focus on web standards, accessiblity, flexible styling, and user-friendly design. All plugins are tested for compatibility in IE 6.0+, Firefox 3+, Safari 3.1+, Opera 9.6+, and Google Chrome.
+</p> 
+<p><strong>Slider Javascript :</strong></p> 
+<pre class="showCodeJS">
+$( "#sliderdemo" ).slider();</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div id="sliderdemo"></div></pre>         
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Slider Demo   </legend>
+<div id="slider-range-min"></div><br />
+<div>More . <a href="http://jqueryui.com/demos/slider/">Example</a></div>
+</fieldset>
+</div>
+<div class="clear"></div>
+<p><strong>Datepicker Javascript :</strong></p> 
+<pre class="showCodeJS">
+// Date picker Inline 
+$(".selector").datepicker();
+
+// Date picker  Focus on the input (click, or use the tab key) to open  
+$("input.selector").datepicker({ 
+    autoSize: true,
+    appendText: '(dd-mm-yyyy)',
+    dateFormat: 'dd-mm-yy'
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!--// Date picker Inline -->
+<div class="selector"></div>
+
+<!--// Date picker  Focus on the input (click, or use the tab key) to open -->
+<input type="text"  class="selector" /></pre>         
+<div class="  grid2 formEl_b">
+<fieldset>
+<legend>Output : Datepicker Demo   </legend>
+<div class="datepickerInline"></div><br />
+
+</fieldset>
+</div>
+<div class="  grid2 formEl_b">
+<fieldset>
+<legend>Output : Datepicker Demo   </legend>
+<div>
+<input type="text"  class="datepicker"/>
+<div><br />
+<div>More . <a href="http://jqueryui.com/demos/datepicker/">Example</a></div>
+</fieldset>
+</div>
+ <div class="clear"></div>
+<hr/>
+<h3> DateTimepicker UI </h3>
+<p><strong>Timepicker addon UI   : </strong> includes filename  components/ui/timepicker.js<br />
+The timepicker addon adds a timepicker to jQuery UI Datepicker, thus the datepicker and slider components (jQueryUI) are required for using any of these. In addition all datepicker options are still available through the timepicker addon.
+</p> 
+<p><strong> Javascript :</strong></p> 
+<pre class="showCodeJS">
+//datetimepicker
+$("#datetime").datetimepicker();
+//timepicker
+$('#time').timepicker({});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!--// datetimepicker-->
+<input type="text" id="datetime"  />
+<!--// timepicker-->
+<input type="text" id="time"  /></pre>        
+<div class="  grid1 formEl_b">
+<fieldset>
+<legend>Output : Timepicker addon  Demo   </legend>
+<div><input type="text" id="datetimepicker"  /><span class="f_help">datetimepicker</span></div><br />
+<div><input type="text" id="timepicker"  /><span class="f_help">timepicker</span></div><br />
+<div>More . <a href="http://trentrichardson.com/examples/timepicker/">Example and Document help</a></div>
+</fieldset>
+</div>
+<div class="clear"></div>
+
+<hr/>
+<h3> Color picker </h3>
+<p><strong>Color picker    : </strong> includes filename  components/colorpicker/js/colorpicker.js<br />
+COLOR PICKER - JQUERY PLUGIN  A simple component to select color in the same way you select color in Adobe Photoshop
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('yourselector').ColorPicker({ option });
+//ColorPicker
+$('#colorInline').ColorPicker({flat: true});
+
+//exampel option
+$('#color').ColorPicker({
+  color: '#e62e90',
+  onShow: function (colpkr) {
+      $(colpkr).fadeIn(500);
+      return false;
+  },
+  onHide: function (colpkr) {
+      $(colpkr).fadeOut(500);
+      return false;
+  },
+  onChange: function (hsb, hex, rgb) {
+      $('#colorPicker div').css('backgroundColor', '#' + hex);
+  }
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<!--// ColorPicker inline-->
+<div id="colorInline"></div>
+<!--// Custom skin and using flat mode to display the color picker in a custom widget.-->
+<div  id="color">
+      <div style="background-color: #e62e90"></div>
+</div></pre>        
+<div class="  grid2 formEl_b">
+<fieldset>
+<legend>Output : ColorPicker Demo   </legend>
+<div><div id="colorPickerFlat"></div><span class="f_help">datetimepicker</span></div><br />
+<div>
+ <div  id="colorPicker">
+        <div style="background-color: #e62e90"></div>
+ </div><div class="clear"></div><br /><br />
+<span class="f_help">Custom skin and using flat mode to display the color picker in a custom widget.</span></div>
+<div>More . <a href="http://www.eyecon.ro/colorpicker/">Example </a></div>
+</fieldset>
+</div>
+
+<div class="clear"></div>
+<hr/>
+<h3> File Manager  elFinder</h3>
+<p><strong>elFinder     : </strong> includes filename  components/elfinder/js/elfinder.full.js<br />
+elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. As you can see its creation is inspired by simplicity and convenience of Finder program used in Mac OS X operating system.
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('#finder').elfinder({
+    url : 'components/elfinder/connectors/php/connector-fileimport.php',
+    docked : true,dialog : { title : 'File manager',modal : true,width : 700 }
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div id="finder"></div></pre>        
+<div class=" formEl_b">
+<fieldset>
+<legend>Output : Datepicker Demo   </legend>
+<div id="finder"></div><br />
+<div>More . <a href="http://elrte.org/elfinder">Example and Features</a></div>
+</fieldset>
+</div>
+                        
+<div class="clear"></div>
+<hr/>
+                        
+<h3>  Calendar </h3>
+<p><strong>FullCalendar     : </strong> includes filename  components/fullcalendar/js/fullcalendar.js<br />
+FullCalendar is a jQuery plugin that provides a full-sized, drag & drop calendar like the one below. It uses AJAX to fetch events on-the-fly for each month and is easily configured to use your own feed format (an extension is provided for Google Calendar). It is visually customizable and exposes hooks for user-triggered events (like clicking or dragging an event). It is open source and dual licensed under the MIT or GPL Version 2 licenses. 
+</p>                         
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('#calendar').fullCalendar({
+    // put your options and callbacks here
+})</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<div id='calendar'></div></pre>    <br />                      
+<div>More . <a href="http://arshaw.com/fullcalendar/">Example and Full Documentation </a></div><br />
+
+<div class="clear"></div>
+<hr/>
+<h3> table </h3>
+<p><strong>Datatables     : </strong> includes filename  components/datatables/dataTables.min.js<br />
+DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.  
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$('#example').dataTable();</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<table  id="example">
+<thead>
+<tr>
+  <th >texthead</th>
+  <th ><div class="th_wrapp" >texthead</div></th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+  <td>text body</td>
+  <td>text body</td>
+  </tr>
+</tbody>
+</table></pre><br />
+<div>More . <a href="http://datatables.net/">Example and Features</a></div> 
+<br />
+<div class="clear"></div>
+<hr/>
+<h3> Charts </h3>
+<p><strong> Flot  Charts    : </strong> includes  4 filename  in folder  components/flot/<br />
+<p>
+<ul class="list_arrow">
+        <li>flot.js</li>
+        <li>flot.pie.min.js</li>
+        <li>flot.resize.min.js</li>
+        <li>graphtable.js</li>
+</ul>
+</p>
+Flot is a pure Javascript plotting library for jQuery. It produces graphical plots of arbitrary datasets on-the-fly client-side.
+The focus is on simple usage (all settings are optional), attractive looks and interactive features like zooming and mouse tracking.
+The plugin works with Internet Explorer 6+, Firefox 2.x+, Safari 3.0+, Opera 9.5+ and Konqueror 4.x+ with the HTML canvas tag (the excanvas Javascript emulation helper is used for IE < 9).
+</p> 
+<p><strong>Javascript :</strong></p> 
+<pre class="showCodeJS">
+$("table.chart-pie").each(function() {
+var colors = [];
+$("table.chart-pie thead th:not(:first)").each(function() {
+    colors.push($(this).css("color"));
+});
+$(this).graphTable({
+    series: 'columns',
+    position: 'replace',
+    width : '100%',
+    height: '325px',
+    colors: colors
+}, {
+series: {
+    pie: { 
+        show: true,
+        radius: 1,
+        label: {
+            show: true,
+            radius: 1,
+            formatter: function(label, series){
+                return '<div style="font-size:10px;text-align:center;padding:5px 7px;color:#FFF;text-shadow:none; background-color:#555;">'+label+'<br/>'+Math.round(series.percent)+'%</div>';
+            },
+            background: { opacity: 0.8 }
+        }
+    }
+},
+legend: {
+    show: false
+},
+    grid: {
+        hoverable: false,
+        autoHighlight: false
+    }
+});
+});</pre><br />
+<p><strong>HTML Markup:</strong></p> 
+<pre class="showCodeHTML">
+<table class="chart-pie" style="width : 100%;">
+    <thead>
+        <tr>
+            <th></th>
+            <th style="color : #aed741;">Product Review</th>
+            <th style="color : #bedd17;">Webboard</th>
+            <th style="color : #c3e171;">Article</th>
+            <th style="color : #85b501;">Other</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th>
+            <td>75</td>
+            <td>10</td>
+            <td>9</td>
+            <td>6</td>
+        </tr>
+    </tbody>
+</table></pre><br />
+<div>More . <a href="http://code.google.com/p/flot/">Example and Documentation</a></div> 
+
+
+                                </div><!--  end widget-content -->
+                            </div><!-- widget  span12 clearfix-->
+
+                    </div><!-- row-fluid -->    
+                    
+  
+
+                    
+                    <div class="clear"></div>
+                    <div id="footer"> &copy; Copyright 2012 <span class="tip"><a  href="#" title="Zice Admin" >Your Company Name</a> </span> </div>
+                </div> <!--// End inner -->
+            </div> <!--// End content --> 
+</body>
+</html>  
