@@ -565,7 +565,7 @@ class Visual_Form_Builder_Pro{
 			<p><strong><?php _e( 'Click or Drag' , 'visual-form-builder-pro'); ?></strong> <?php _e( 'to Add a Field' , 'visual-form-builder-pro'); ?> <img id="add-to-form" alt="" src="<?php echo admin_url( '/images/wpspin_light.gif' ); ?>" class="waiting spinner" /></p>
 			<ul class="posttype-tabs add-menu-item-tabs" id="vfb-field-tabs">
 				<li class="tabs"><a href="#standard-fields" class="nav-tab-link vfb-field-types"><?php _e( 'Standard' , 'visual-form-builder-pro'); ?></a></li>
-				<li><a href="#advanced-fields" class="nav-tab-link vfb-field-types"><?php _e( 'Advanced' , 'visual-form-builder-pro'); ?></a></li>
+				<!-- <li><a href="#advanced-fields" class="nav-tab-link vfb-field-types"><?php _e( 'Advanced' , 'visual-form-builder-pro'); ?></a></li> -->
 				<?php
 					if ( class_exists( 'VFB_Pro_Create_Post' ) && method_exists( $vfb_post, 'form_item_tab' ) )
 						$vfb_post->form_item_tab();
@@ -578,8 +578,8 @@ class Visual_Form_Builder_Pro{
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-checkbox"><b></b>Checkbox</a></li>
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-select"><b></b>Select</a></li>
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-datepicker"><b></b>Date</a></li>
-					<li><a href="#" class="vfb-draggable-form-items" id="form-element-url"><b></b>URL</a></li>
-					<li><a href="#" class="vfb-draggable-form-items" id="form-element-digits"><b></b>Number</a></li>
+					<!-- <li><a href="#" class="vfb-draggable-form-items" id="form-element-url"><b></b>URL</a></li> -->
+					<!-- <li><a href="#" class="vfb-draggable-form-items" id="form-element-digits"><b></b>Number</a></li> -->
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-phone"><b></b>Phone</a></li>
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-file"><b></b>File Upload</a></li>
 				</ul>
@@ -589,10 +589,10 @@ class Visual_Form_Builder_Pro{
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-radio"><b></b>Radio</a></li>
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-address"><b></b>Address</a></li>
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-email"><b></b>Email</a></li>
-					<li><a href="#" class="vfb-draggable-form-items" id="form-element-currency"><b></b>Currency</a></li>
-					<li><a href="#" class="vfb-draggable-form-items" id="form-element-time"><b></b>Time</a></li>
+					<!-- <li><a href="#" class="vfb-draggable-form-items" id="form-element-currency"><b></b>Currency</a></li> -->
+					<!-- <li><a href="#" class="vfb-draggable-form-items" id="form-element-time"><b></b>Time</a></li> -->
 					
-					<li><a href="#" class="vfb-draggable-form-items" id="form-element-html"><b></b>HTML</a></li>
+					<!-- <li><a href="#" class="vfb-draggable-form-items" id="form-element-html"><b></b>HTML</a></li> -->
 					
 					<li><a href="#" class="vfb-draggable-form-items" id="form-element-instructions"><b></b>Instructions</a></li>
 				</ul>
