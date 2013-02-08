@@ -142,6 +142,9 @@ blockquote p {
 	font-size:16px;
 	line-height:20px
 }
+.vfb-clear{
+	clear:both;
+}
 .showme {
 	display: inline;
 }

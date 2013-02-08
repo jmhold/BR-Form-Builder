@@ -341,9 +341,12 @@ foreach ( $forms as $form ) :
 			
 			case 'address' :
 				
-				if ( !empty( $field->field_description ) )
-					$output .= '<span><label>' . html_entity_decode( stripslashes( $field->field_description ) ) . '</label></span>';
-				
+				if ( !empty( $field->field_description ) ){
+					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '<small>' . html_entity_decode( stripslashes( $field->field_description ) ) . '</small></label>';
+				}else{
+					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '</label>';
+				}
+
 				$address_labels = array(
 				    'address'    => __( 'Address', 'visual-form-builder-pro' ),
 				    'address-2'  => __( 'Address Line 2', 'visual-form-builder-pro' ),
@@ -356,39 +359,30 @@ foreach ( $forms as $form ) :
 				$address_labels = apply_filters( 'vfb_address_labels', $address_labels, $form_id );
 				
 				$output .= '<div>
-					<span class="vfb-full">
-						<input type="text" name="vfb-' . $field->field_id . '[address]" id="' . $id_attr . '-address" maxlength="150" class="vfb-text vfb-medium' . $required . $css . '" />
 						<label for="' . $id_attr . '-address">' . $address_labels['address'] . '</label>
-					</span>
-					<span class="vfb-full">
-						<input type="text" name="vfb-' . $field->field_id . '[address-2]" id="' . $id_attr . '-address-2" maxlength="150" class="vfb-text vfb-medium' . $css . '" />
+						<input type="text" name="vfb-' . $field->field_id . '[address]" id="' . $id_attr . '-address" maxlength="150" class="span12 vfb-text vfb-medium' . $required . $css . '" />
 						<label for="' . $id_attr . '-address-2">' . $address_labels['address-2'] . '</label>
-					</span>
-					<span class="vfb-left">
-						<input type="text" name="vfb-' . $field->field_id . '[city]" id="' . $id_attr . '-city" maxlength="150" class="vfb-text vfb-medium' . $required . $css . '" />
+						<input type="text" name="vfb-' . $field->field_id . '[address-2]" id="' . $id_attr . '-address-2" maxlength="150" class="span12 vfb-text vfb-medium' . $css . '" />
 						<label for="' . $id_attr . '-city">' . $address_labels['city'] . '</label>
-					</span>
-					<span class="vfb-right">
-						<input type="text" name="vfb-' . $field->field_id . '[state]" id="' . $id_attr . '-state" maxlength="150" class="vfb-text vfb-medium' . $required . $css . '" />
+						<input type="text" name="vfb-' . $field->field_id . '[city]" id="' . $id_attr . '-city" maxlength="150" class="span12 vfb-text vfb-medium' . $required . $css . '" />
 						<label for="' . $id_attr . '-state">' . $address_labels['state'] . '</label>
-					</span>
-					<span class="vfb-left">
-						<input type="text" name="vfb-' . $field->field_id . '[zip]" id="' . $id_attr . '-zip" maxlength="150" class="vfb-text vfb-medium' . $required . $css . '" />
+						<input type="text" name="vfb-' . $field->field_id . '[state]" id="' . $id_attr . '-state" maxlength="150" class="span12 vfb-text vfb-medium' . $required . $css . '" />
 						<label for="' . $id_attr . '-zip">' . $address_labels['zip'] . '</label>
-					</span>
-					<span class="vfb-right">
-					<select class="vfb-select' . $required . $css . '" name="vfb-' . $field->field_id . '[country]" id="' . $id_attr . '-country">';
-					
-					$default = apply_filters( 'vfb_default_country', $default );
-					
-					foreach ( $this->countries as $country ) {
-						$output .= "<option value=\"$country\" " . selected( $default, $country, 0 ) . ">$country</option>";
-					}
-					
-					$output .= '</select>
+						<input type="text" name="vfb-' . $field->field_id . '[zip]" id="' . $id_attr . '-zip" maxlength="150" class="span12 vfb-text vfb-medium' . $required . $css . '" />
 						<label for="' . $id_attr . '-country">' . $address_labels['country'] . '</label>
-					</span>
-				</div>';
+						<select class="span12 vfb-select' . $required . $css . '" name="vfb-' . $field->field_id . '[country]" id="' . $id_attr . '-country">';
+							
+							$default = apply_filters( 'vfb_default_country', $default );
+							
+							foreach ( $this->countries as $country ) {
+								$output .= "<option value=\"$country\" " . selected( $default, $country, 0 ) . ">$country</option>";
+							}
+							
+							$output .= '</select>
+							
+
+						</div>
+						<div style="clear:both"></div>';
 
 			break;
 			
