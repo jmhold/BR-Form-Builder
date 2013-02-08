@@ -395,9 +395,9 @@ foreach ( $forms as $form ) :
 			case 'date' :
 				
 				if ( !empty( $field->field_description ) )
-					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '<small>' . html_entity_decode( stripslashes( $field->field_description ) ) . '</small></label><div><input type="text" name="vfb-' . $field->field_id . '" id="' . $id_attr . '" value="' . $default . '" class="vfb-text vfb-date-picker ' . $field->field_size . $required . $css . '" /></div>';
+					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '<small>' . html_entity_decode( stripslashes( $field->field_description ) ) . '</small></label><div><input id="dateMasked" class="' . $field->field_size . '"  type="text" tabindex="1" /></div>';
 				else
-					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '</label><div><input type="text" name="vfb-' . $field->field_id . '" id="' . $id_attr . '" value="' . $default . '" class="vfb-text vfb-date-picker ' . $field->field_size . $required . $css . '" /></div>';
+					$output .= '<label>' . html_entity_decode( stripslashes( $field->field_name ) ) . '</label><div><input id="dateMasked" class="' . $field->field_size . '"  type="text" tabindex="1" /></div>';
 				
 			break;
 			
